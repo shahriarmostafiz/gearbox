@@ -1,0 +1,73 @@
+/* shared styles here  */
+* {
+  margin: 0;
+  padding: 0;
+  /* font-size: 16px; */
+  font-family: "Poppins", sans-serif;
+}
+.common {
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px 0;
+}
+
+/* header section here */
+header {
+  padding: 90px 120px;
+}
+/* nav bar styles  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  color: #3a3a3a;
+  font-size: 24px;
+  font-weight: 700;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.nav-menu li {
+  list-style: none;
+  margin-left: 20px;
+}
+nav li > a {
+  text-decoration: none;
+}
+/* banner section styles  */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 0;
+  align-items: center;
+}
+.banner-content {
+  max-width: 505px;
+}
+.banner-title {
+  color: #3a3a3a;
+  font-size: 52px;
+  font-weight: 700;
+}
+.banner-btn {
+  border-radius: 41px;
+  background-color: #e02c6d;
+  padding: 10px 24px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+}
+.banner-pics {
+  background-image: url("./images/Circle\ design.svg");
+}
+.banner-img {
+  width: 100%;
+}
+
+/* other website section here  */
